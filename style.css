@@ -101,7 +101,7 @@ header nav p {
 }
 
 .pacotes .card-content ul li {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
     display: flex;
     align-items: center;
     margin: 3px 0;
@@ -111,11 +111,11 @@ header nav p {
 
 .pacotes .card-content li svg {
     width: 16px;
-    height: 16 px;
-    margin-right: 10 px;
+    height: 16px;
+    margin-right: 10px;
 }
 .pacotes .card-content h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .pacotes .card .card-tag-top {
     position: absolute;
@@ -141,7 +141,7 @@ header nav p {
 }
 .servicos {
     padding: 15px;
-    }
+}
 
 .servicos .servicos-title {
     text-align: center;
@@ -192,10 +192,46 @@ header nav p {
 }
 
 .contatos {
-    height: 450px;
+    display: flex;
+    height: 200px;
     background-color: rgb(247, 248, 236);
+    text-align: center;
+    justify-content: center;
+    color: black;
+    align-items: center;
+}
+.contatos .mail svg {
+    stroke: red;
+}
+.contatos .facebook svg {
+    stroke: rgb(22, 22, 145);
 }
 
-.contatos .mail svg:hover {
-    stroke: red;
+.contatos .instagram svg {
+    stroke: rgb(194, 11, 41);
+}
+
+.contatos .twitter svg {
+    stroke: rgb(60, 131, 189);
+}
+
+.contatos .phone svg {
+    stroke: green;
+}
+
+.contatos-card {
+    color: grey;
+    font-weight: bold;
+}
+
+.contatos .c-info {
+    margin: 5px 20px;
+    width: auto;
+    height: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px 0;
+    padding: 0 15px;
+    //quero que fique no meio
+    
+
 }
