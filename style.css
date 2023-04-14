@@ -37,7 +37,6 @@ header nav {
 
 header nav ul {
     display: flex;
-
 }
 
 header nav li {
@@ -52,6 +51,7 @@ header nav p {
     max-width: 400px;
     margin: 150px auto;
     text-align: center;
+    color: white;
 }
 
 .header-content h1 {
@@ -66,7 +66,7 @@ header nav p {
     font-size: 3rem;
 }
 .pacotes {
-    background: rgb(247, 248, 236);
+    background: rgb(238, 197, 163);
     padding: 15px;
 }
 
@@ -90,10 +90,12 @@ header nav p {
     border-radius: 24px 0;
     margin: 25px;
     position: relative;
+
 }
-.pacote .card.cotent {
-    padding: 0 15px;    
+.pacotes .card-content {
+    padding: 0 10px;   
 }
+
 .pacotes .card-content ul {
     padding: flex;
     flex-direction: column;
@@ -130,7 +132,8 @@ header nav p {
     left: 0;
     top: 160px;
     background: rgb(122, 199, 235);
-    border-radius: 0 8px 8px 0;
+    border-bottom-right-radius: 8px 8px;
+    border-top-right-radius: 8px 8px;
     padding: 5px 10px;
 }
 .pacotes .card .card-tag p {
@@ -193,45 +196,111 @@ header nav p {
 
 .contatos {
     display: flex;
-    height: 200px;
-    background-color: rgb(247, 248, 236);
+    height: 150px;
     text-align: center;
     justify-content: center;
     color: black;
     align-items: center;
 }
-.contatos .mail svg {
-    stroke: red;
-}
-.contatos .facebook svg {
-    stroke: rgb(22, 22, 145);
+
+.contato .contatos-title {
+    text-align: center;
+    color: black;
 }
 
-.contatos .instagram svg {
-    stroke: rgb(194, 11, 41);
+.contato {
+    background-color:rgb(238, 197, 163);
+    padding: 15px;
+    margin: 25px 0 0;
+    text-align: center; 
 }
-
-.contatos .twitter svg {
-    stroke: rgb(60, 131, 189);
+    
+.contato .desenvolvido {
+    font-size: 12px;
+    color: gray;
 }
 
 .contatos .phone svg {
     stroke: green;
 }
-
-.contatos-card {
-    color: grey;
-    font-weight: bold;
+.contatos .phone {
+    width: auto;
+    height: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 20px 0;
+    padding: 10px 8px 8px 8px;
+    font-size: 13px;
+    margin: 15px;
+}
+.contatos .phone:hover {
+    color: green;
+    transform: scale(1.1);
 }
 
-.contatos .c-info {
-    margin: 5px 20px;
+.contatos .twitter svg {
+    stroke: rgb(60, 131, 189);
+}
+.contatos .twitter {
     width: auto;
-    height: 30px;
+    height: auto;
     background: rgb(255, 255, 255);
-    border-radius: 10px 0;
-    padding: 0 15px;
-    //quero que fique no meio
-    
+    border-radius: 20px 0;
+    padding: 10px 8px 8px 8px;
+    font-size: 13px;
+    margin: 15px;
+}
+.contatos .twitter:hover {
+    color: rgb(60, 131, 189);
+    transform: scale(1.1);
+}
 
+.contatos .instagram svg {
+    stroke: rgb(194, 11, 124);
+}
+.contatos .instagram {
+    width: auto;
+    height: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 20px 0;
+    padding: 10px 8px 8px 8px;
+    font-size: 13px;
+    margin: 15px;
+}
+.contatos .instagram:hover {
+    color: rgb(194, 11, 124);
+    transform: scale(1.1);
+}
+
+.contatos .facebook svg {
+    stroke: rgb(22, 22, 145);
+}
+.contatos .facebook {
+    width: auto;
+    height: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 20px 0;
+    padding: 10px 8px 8px 8px;
+    font-size: 13px;
+    margin: 13px;
+}
+.contatos .facebook:hover {
+    color: rgb(22, 22, 145);
+    transform: scale(1.1);
+}
+
+.contatos .mail svg {
+    stroke: red;
+}
+.contatos .mail {
+    width: auto;
+    height: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 20px 0;
+    padding: 10px 8px 8px 8px;
+    font-size: 13px;
+    margin: 15px;
+}
+.contatos .mail:hover {
+    color: red;
+    transform: scale(1.1);
 }
